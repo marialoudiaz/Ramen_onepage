@@ -1,29 +1,33 @@
 img{
-  width:100%
+  width:100%;
 }
 
-#homepagetitle{
-  color:beige;
-}
 
 .navbar{
 display : flex;
 max-width : 100%;
 background : black;
-list-style: none;
 justify-content : space-between;
 align-items: center;
 margin : 0;
-padding : 1%;
+padding : 2%;
 }
 
-.nav-links{
+.homepagetitle{
+  display: inline-block;
+  color:white;
+  
+}
+
+
+.navlinks {
+list-style: none;  
 display: flex;
-justify-content :space-between;
-align-items: center;
-list-style: none;
 }
 
-.nav-links:li {
-  list-style: none;
+.nav-item a{
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
 }
