@@ -49,9 +49,32 @@ font-size: small;
 
 }
 
+.header > h1 {
+  font-size: 30px;
+  margin: 8%;
+}
+
+.header > h2 {
+  font-size: 15px;
+  margin: 8%;
+}
+h1{
+  font-size: 20px;
+}
+
+h2{
+  font-size: 25px;
+}
+
 .homebutton{
-  color:white;
+  background-color:black;
   text-decoration: none;
+  color:white;
+  margin:2px;
+  padding: 4%;
+  border-color: white;
+  border-style:ridge;
+
 }
 .top-button{
   text-align: center;
@@ -73,8 +96,32 @@ text-align: center;
 }
 
 p{
-  font-size: 1em;
+  font-size: em;
 }
+
+.RamenStation{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2%;
+  gap:0.5em;
+}
+
+.Ramen-Grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+margin-left: 7%;
+margin-right: 7%;
+gap: 2em;
+}
+
+.team{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2%;
+  gap:0.5em;
+}
+
 footer{
   background-color: black;
   font-size: 0.5em;
