@@ -33,6 +33,16 @@ font-size: small;
   font-size: medium;
 }
 
+.hamburger{
+  display: none;
+}
+
+@media all and (max-width:480px){
+  .hamburger{
+    display: block;
+  }
+} 
+
 
 .homescreen{
   background-image: url(splash.jpg);
@@ -116,6 +126,7 @@ p{
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 2%;
   gap:0.5em;
+
 }
 
 .RamenStation > img{
@@ -161,7 +172,6 @@ gap: 2em;
   }
 
 }
-
 
 
 .team{
