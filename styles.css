@@ -3,14 +3,18 @@ width:100%;
 }
 
 .navbar{
-display : flex;
-max-width : 100%;
-background : black;
-justify-content : space-between;
-align-items: center;
-margin : 0;
-padding : 0.5em;
-}
+  display : flex;
+  max-width : 100%;
+  background : black;
+  justify-content : space-between;
+  align-items: center;
+  margin : 0;
+  padding : 0.5em;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  }
+
 
 .navlinks {
 list-style: none;  
@@ -43,7 +47,6 @@ font-size: small;
     display:flex;
     justify-content: end;
     align-items:baseline;
-    color: white;
   }
   .hamburger-content{
     display: none;
@@ -51,17 +54,23 @@ font-size: small;
     left:0; /* FERA APPARAITRE LE TEXTE A GAUCHE*/
     z-index:1; /* PERMET DE PASSER PAR DESSUS*/
   }
+  .hamburger-content a{
+    text-decoration: none;
+    color: white;
+  }
+
   .hamburger:hover .hamburger-content {
     display: block;
     background-color: black;
     margin: 2px;
     padding: 20px;
+    border-radius: 10px;
     text-align: left;
-    animation: popup .5s ease-in-out both;
   }
   .hamburger span {
     display: block;
     transform: rotate(90deg);
+    color: white;
   }
   .hamburger:hover span {
     transition: transform .3s;
