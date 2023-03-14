@@ -115,6 +115,9 @@ margin-right: 7%;
 gap: 2em;
 }
 
+.RamenStation > img{
+  margin: 7px;
+}
 .team{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
