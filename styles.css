@@ -33,6 +33,7 @@ font-size: small;
   font-size: medium;
 }
 
+
 .homescreen{
   background-image: url(splash.jpg);
   background-position: center;
@@ -117,6 +118,20 @@ p{
   gap:0.5em;
 }
 
+.RamenStation > img{
+  margin: 7px;
+}
+
+/* RamenStation Mobile Device */
+@media all and (max-width:480px){
+  .RamenStation{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-top: 2%;
+    gap:0.5em;
+  }
+}
+
 .Ramen-Grid{
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -128,10 +143,26 @@ gap: 2em;
   margin: 40px;
   padding:15px;
 }
+/* Ramen-Grid Mobile Device */
+@media all and (max-width:480px){
+  .Ramen-Grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 3%;
+    margin-right: 3%;
+    gap: 2em;
+    }
+  .Ramen-Grid p {
+  font-size: 0.8em;
+  }  
+  .Ramen-Element{
+    margin: 15px;
+    padding:5px;
+  }
 
-.RamenStation > img{
-  margin: 7px;
 }
+
+
 
 .team{
   display:grid;
@@ -139,6 +170,17 @@ gap: 2em;
   margin-top: 2%;
   gap:0.5em;
 }
+
+/* team Mobile Device */
+@media all and (max-width:480px){
+  .team{
+  display:grid;
+  grid-template-columns: 1fr;
+  margin-top: 2%;
+  gap:0.5em;
+  }
+  
+} 
 
 footer{
   background-color: black;
