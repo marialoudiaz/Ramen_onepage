@@ -37,6 +37,7 @@ font-size: small;
   display: none;
 }
 
+
 @media all and (max-width:480px){
   .hamburger{
     display:flex;
@@ -44,6 +45,31 @@ font-size: small;
     align-items:baseline;
     color: white;
   }
+  .hamburger-content{
+    display: none;
+    position: absolute;
+    left:0; /* FERA APPARAITRE LE TEXTE A GAUCHE*/
+    z-index:1; /* PERMET DE PASSER PAR DESSUS*/
+  }
+  .hamburger:hover .hamburger-content {
+    display: block;
+    background-color: black;
+    margin: 2px;
+    padding: 20px;
+    text-align: left;
+    animation: popup .5s ease-in-out both;
+  }
+  .hamburger span {
+    display: block;
+    transform: rotate(90deg);
+  }
+  .hamburger:hover span {
+    transition: transform .3s;
+  -webkit-transition: -webkit-transform 0.3s;
+    display: inline-block;
+    transform: rotate(180deg);
+  }
+
   .navlinks{
     display: none;
   }
