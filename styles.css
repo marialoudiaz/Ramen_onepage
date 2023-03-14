@@ -25,31 +25,30 @@ font-size: small;
   text-decoration: none;
   color: white;
 }
-/*.homeimage{ 
-}
-*/
 
 .homepagetitle{
   display: inline-block;
   color:white;
   font-family: Montserrat;
   font-size: medium;
-  
 }
 
 .homescreen{
-  position: relative;
-
+  background-image: url(splash.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center; /* justify inside*/
+  align-items: center; /* elements stays in the center*/
 }
 
 .homescreen img{
-  filter: blur(3px);
+  filter: blur(2px);
 }
+
 .header-overlay{
   position: absolute;
   text-align: center;
-  top: 25%;
-  left: 27%;
   color: white;
 }
 
@@ -93,6 +92,7 @@ h2{
 body{
 font-family: Montserrat;
 text-align: center;
+margin:0;
 }
 .sectionspace{
   margin-top: 80px;
@@ -110,7 +110,6 @@ p{
   font-size: 1em;
 }
 
-
 .RamenStation{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -120,7 +119,6 @@ p{
 
 .Ramen-Grid{
 display: grid;
-grid-template-columns: 1fr 1fr;
 grid-template-columns: 1fr 1fr;
 margin-left: 7%;
 margin-right: 7%;
