@@ -39,6 +39,11 @@ font-size: small;
 
 .homescreen{
   position: relative;
+
+}
+
+.homescreen img{
+  filter: blur(3px);
 }
 .header-overlay{
   position: absolute;
