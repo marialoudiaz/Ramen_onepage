@@ -2,7 +2,6 @@ img{
 width:100%;
 }
 
-
 .navbar{
 display : flex;
 max-width : 100%;
@@ -12,15 +11,6 @@ align-items: center;
 margin : 0;
 padding : 0.5em;
 }
-
-.homepagetitle{
-  display: inline-block;
-  color:white;
-  font-family: Montserrat;
-  font-size: medium;
-  
-}
-
 
 .navlinks {
 list-style: none;  
@@ -35,29 +25,39 @@ font-size: small;
   text-decoration: none;
   color: white;
 }
-.homeimage{
+/*.homeimage{ 
+}
+*/
+
+.homepagetitle{
+  display: inline-block;
+  color:white;
+  font-family: Montserrat;
+  font-size: medium;
+  
+}
+
+.homescreen{
   position: relative;
 }
-
-.header{
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    bottom: 50%;
-    left: 40%;
-    color: white;
-
+.header-overlay{
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 27%;
+  color: white;
 }
 
-.header > h1 {
+.header-overlay > h1 {
   font-size: 30px;
   margin: 8%;
-}
-
-.header > h2 {
+  }
+  
+.header-overlay > h2 {
   font-size: 15px;
   margin: 8%;
-}
+  }  
+
 h1{
   font-size: 20px;
 }
