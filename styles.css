@@ -51,7 +51,7 @@ font-size: small;
   .hamburger-content{
     display: none;
     position: absolute;
-    left:0; /* FERA APPARAITRE LE TEXTE A GAUCHE*/
+    right:0; /* FERA APPARAITRE LE TEXTE A GAUCHE*/
     z-index:1; /* PERMET DE PASSER PAR DESSUS*/
   }
   .hamburger-content a{
