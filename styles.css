@@ -1,5 +1,5 @@
 img{
-max-width:100%;
+width:100%;
 }
 
 
@@ -81,6 +81,9 @@ h2{
   color: orange;
 }
 
+.iframe{
+  margin-top:10px;
+}
 
 body{
 font-family: Montserrat;
