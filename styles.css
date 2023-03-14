@@ -10,12 +10,14 @@ background : black;
 justify-content : space-between;
 align-items: center;
 margin : 0;
-padding : 2%;
+padding : 0.5em;
 }
 
 .homepagetitle{
   display: inline-block;
   color:white;
+  font-family: Montserrat;
+  font-size: medium;
   
 }
 
@@ -23,6 +25,8 @@ padding : 2%;
 .navlinks {
 list-style: none;  
 display: flex;
+font-family: Montserrat;
+font-size: small;
 }
 
 .nav-item a{
@@ -30,4 +34,44 @@ display: flex;
   padding: 10px;
   text-decoration: none;
   color: white;
+}
+.homeimage{
+  position: relative;
+}
+
+.header{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    bottom: 50%;
+    left: 40%;
+    color: white;
+
+}
+
+.homebutton{
+  color:white;
+  text-decoration: none;
+}
+.top-button{
+  text-align: center;
+  color: orange;
+}
+
+body{
+  font-family: Montserrat;
+text-align: center;
+}
+
+footer{
+  background-color: black;
+  font-size: 0.5em;
+  color: white;
+  padding: 1em;
+  margin-top: 1%;
+}
+
+.phone{
+  text-decoration: none;
+  color: orange;
 }
